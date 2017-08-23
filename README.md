@@ -1,8 +1,8 @@
-#Interfacing with IPOPT through CMAKE 
+## Interfacing with IPOPT through CMAKE ## 
 
 The IPOPT library comes with a makefile that compiles a number of examples. I wanted to incorporate IPOPT and these are just my notes on the interface.
 
-1) IPOPT can be downloaded with:
+### 1) IPOPT can be downloaded with: ###
 
 ''git clone -b stable/3.12 https://github.com/coin-or/Ipopt.git CoinIpopt''
 
