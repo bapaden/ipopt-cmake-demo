@@ -16,10 +16,12 @@ http://www.hsl.rl.ac.uk/ipopt/
 ### 3) Compile and install hsl as follows: ###
 
 a) extract the copresses binaries into some directory "DIR/"
+
 b) next move the files from DIR/include into usr/local/include and DIR/lib into usr/local/lib and DIR/lib/pkgconfig into usr/local/pkgconfig
+
 c) run ldconfig to map the package names to the directory:
 
-
+```
 sudo ldconfig
 
 
