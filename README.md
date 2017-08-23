@@ -15,22 +15,22 @@ http://www.hsl.rl.ac.uk/ipopt/
 
 ### 3) Compile and install hsl as follows: ###
 
-	a) extract the copresses binaries into some directory "DIR/"
-	b) next move the files from DIR/include into usr/local/include and DIR/lib into usr/local/lib and DIR/lib/pkgconfig into usr/local/pkgconfig
-	c) run ldconfig to map the package names to the directory:
+a) extract the copresses binaries into some directory "DIR/"
+b) next move the files from DIR/include into usr/local/include and DIR/lib into usr/local/lib and DIR/lib/pkgconfig into usr/local/pkgconfig
+c) run ldconfig to map the package names to the directory:
 
-```
-		sudo ldconfig
-```
+
+sudo ldconfig
+
 
 4) Now compile and install IPOPT with the following terminal commands:
 
 ```
-	cd .../CoinIpopt
-	./configure
-	make
-	make install
-	make test
+cd .../CoinIpopt
+./configure
+make
+make install
+make test
 ```
 
 5) Make sure the ipopt binaries that end up in /CoinIpopt/lib/ are in /usr/local/lib and copies of related headers from /CoinIpopt/include/coin/ are copied to /usr/local/include/coin.
